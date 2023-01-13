@@ -1,5 +1,5 @@
 require("dotenv").config();
-require('./Config/database').connectToDB()
+require('./config/database').connectToDB()
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
